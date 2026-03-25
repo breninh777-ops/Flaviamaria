@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Flávia Maria | Psicologia</title>
+    <meta
+      name="description"
+      content="Psicologa com acolhimento e respeito. Atendimento online. Agende sua consulta."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Parisienne&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <header class="topbar" data-elevate>
+      <div class="container topbar__inner">
+        <a class="brand" href="#inicio" aria-label="Página inicial">
+          <span class="brand__mark" aria-hidden="true">
+            <svg viewBox="0 0 64 64" role="img" focusable="false">
+              <path
+                d="M31.9 8c-9.8 0-18.5 7.3-18.5 18 0 8.2 5.6 14.4 13.6 16.4V56h9.9V42.4c8-2 13.6-8.2 13.6-16.4 0-10.7-8.7-18-18.6-18ZM27.5 36.7C23 35.3 20 31.6 20 26c0-6.9 5.5-11.9 11.9-11.9v22.6h-4.4Zm16.5-10.7c0 5.6-3 9.3-7.5 10.7h-4.4V14.1C38.5 14.1 44 19.1 44 26Z"
+              />
+            </svg>
+          </span>
+          <span class="brand__text">
+            <span class="brand__name">Flavia Maria</span>
+            <span class="brand__sub">Psicóloga Clínica</span>
+          </span>
+        </a>
+
+        <button class="menu-btn" type="button" data-menu-button aria-expanded="false" aria-controls="menu">
+          <span class="menu-btn__label">Menu</span>
+          <span class="menu-btn__icon" aria-hidden="true"></span>
+        </button>
+
+        <nav class="nav" id="menu" data-menu>
+          <a class="nav__link" href="#sobre">Sobre Mim</a>
+          <a class="nav__link" href="#servicos">Serviços</a>
+          <a class="nav__link" href="#blog">Blog</a>
+          <a class="nav__link" href="#contato">Contato</a>
+          <a class="nav__cta" href="#contato">Agende sua consulta</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="conteudo">
+      <section class="hero" id="inicio" aria-label="Apresentação">
+        <div class="hero__bg" aria-hidden="true">
+          <div class="hero__bg-img" aria-hidden="true"></div>
+        </div>
+
+        <div class="container hero__inner">
+          <div class="hero__photo reveal">
+            <div class="photo-card" role="img" aria-label="Espaço reservado para foto da psicóloga">
+              <div class="photo-card__ring" aria-hidden="true"></div>
+              <div class="photo-card__fallback">
+                <span>Foto:</span>
+                <code>site-psicologa/assets/hero.png</code>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero__copy">
+            <p class="hero__kicker reveal">Psicoterapia para adultos</p>
+            <h1 class="hero__title reveal">
+              <span class="hero__script">Cuidando</span>
+              <span class="hero__rest">da sua saúde emocional</span>
+            </h1>
+            <p class="hero__lead reveal">com atenção, escuta e respeito.</p>
+
+            <div class="hero__actions reveal">
+              <a class="btn btn--primary" href="#contato">Agende sua Consulta</a>
+              <a class="btn btn--ghost" href="#servicos">Ver serviços</a>
+            </div>
+
+            <div class="hero__badges reveal" aria-label="Destaques">
+              <div class="badge">
+                <span class="badge__dot" aria-hidden="true"></span>
+                <span>Atendimento online</span>
+              </div>
+              <div class="badge">
+                <span class="badge__dot" aria-hidden="true"></span>
+                <span>Sigilo e ética</span>
+              </div>
+              <div class="badge">
+                <span class="badge__dot" aria-hidden="true"></span>
+                <span>Abordagem humanizada</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container cards">
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" role="img" focusable="false">
+                <path
+                  d="M12 12.6c2.6 0 4.7-2.1 4.7-4.7S14.6 3.2 12 3.2 7.3 5.3 7.3 7.9s2.1 4.7 4.7 4.7Zm0 2.3c-3.8 0-7.8 1.9-7.8 5.1V22h15.6v-2c0-3.2-4-5.1-7.8-5.1Z"
+                />
+              </svg>
+            </div>
+            <h3 class="card__title">Terapia Individual</h3>
+            <p class="card__text">Apoio para suas questões emocionais, com um plano de cuidado realista.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__icon card__icon--coral" aria-hidden="true">
+              <svg viewBox="0 0 24 24" role="img" focusable="false">
+                <path
+                  d="M7.4 11.2a3.6 3.6 0 1 0 0-7.2 3.6 3.6 0 0 0 0 7.2Zm9.2 0a3.6 3.6 0 1 0 0-7.2 3.6 3.6 0 0 0 0 7.2ZM4 20v-1.2c0-2.6 2.7-4.4 6-4.4s6 1.8 6 4.4V20H4Zm12 0v-1.6c0-1.4-.6-2.6-1.7-3.4 3.2.3 5.7 2 5.7 4.2V20H16Z"
+                />
+              </svg>
+            </div>
+            <h3 class="card__title">Casal e Família</h3>
+            <p class="card__text">Fortalecendo vínculos, comunicação e acordos saudáveis no dia a dia.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__icon card__icon--mint" aria-hidden="true">
+              <svg viewBox="0 0 24 24" role="img" focusable="false">
+                <path
+                  d="M4 5.5C4 4.1 5.1 3 6.5 3h11C18.9 3 20 4.1 20 5.5v8.8c0 1.4-1.1 2.5-2.5 2.5H10l-4.7 3.2c-.6.4-1.3 0-1.3-.7V5.5Zm4.3 2.8h7.4c.4 0 .8-.4.8-.8s-.4-.8-.8-.8H8.3c-.4 0-.8.4-.8.8s.4.8.8.8Zm0 3.4h5.1c.4 0 .8-.4.8-.8s-.4-.8-.8-.8H8.3c-.4 0-.8.4-.8.8s.4.8.8.8Z"
+                />
+              </svg>
+            </div>
+            <h3 class="card__title">Atendimento Online</h3>
+            <p class="card__text">Sessões no conforto da sua casa, com a mesma qualidade e acolhimento.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="sobre" aria-label="Sobre mim">
+        <div class="container section__inner">
+          <div class="about reveal">
+            <div class="about__layout">
+              <div class="about__content">
+                <h2 class="section__title">Sobre Mim</h2>
+                <p class="section__lead">
+                  Meu objetivo é oferecer um espaço seguro, onde você possa se expressar com liberdade e encontrar
+                  caminhos mais leves e equilibrados para lidar com seus desafios.
+                </p>
+                <div class="about__grid">
+                  <div class="about__block">
+                    <h3 class="mini-title">Abordagem</h3>
+                    <p>Atendimento humanizado, com foco em autoconhecimento, regulação emocional e comunicação.</p>
+                  </div>
+                  <div class="about__block">
+                    <h3 class="mini-title">Para quem</h3>
+                    <p>Ansiedade, estresse, autoestima, luto e mudanças de vida.</p>
+                  </div>
+                  <div class="about__block">
+                    <h3 class="mini-title">CRP</h3>
+                    <p>00/00000 (71-992416524).</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="about__media" aria-label="Foto da psicóloga">
+                <div class="about__photo">
+                  <img class="about__img" src="assets/hero.png" alt="Flavia Maria" loading="lazy" decoding="async" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="servicos" aria-label="Serviços">
+        <div class="container section__inner">
+          <div class="reveal">
+            <h2 class="section__title">Serviços</h2>
+            <p class="section__lead">Um espaço seguro para compreender padrões, aliviar sintomas e construir caminhos.</p>
+          </div>
+
+          <div class="service-grid">
+            <article class="service reveal">
+              <h3 class="service__title">Psicoterapia Individual</h3>
+              <p class="service__text">Sessões semanais ou quinzenais, com objetivos claros e revisões de percurso.</p>
+              <p class="service__meta">Duração: 50 min</p>
+            </article>
+            <article class="service reveal">
+              <h3 class="service__title">Terapia de Casal</h3>
+              <p class="service__text">Ferramentas para diálogo, reparos emocionais e combinações sustentáveis.</p>
+              <p class="service__meta">Duração: 60 min</p>
+            </article>
+            <article class="service reveal">
+              <h3 class="service__title">Online</h3>
+              <p class="service__text">Plataforma segura, orientações simples e acompanhamento com consistência.</p>
+              <p class="service__meta">Brasil</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="blog" aria-label="Blog">
+        <div class="container section__inner">
+          <div class="reveal">
+            <h2 class="section__title">Blog</h2>
+            <p class="section__lead">Textos curtos para organizar ideias e levar para a terapia.</p>
+          </div>
+
+          <div class="post-grid">
+            <article class="post reveal">
+              <p class="post__tag">Ansiedade</p>
+              <h3 class="post__title">Como identificar gatilhos no dia a dia</h3>
+              <p class="post__excerpt">Um exercício simples para mapear situações, pensamentos e reações no corpo.</p>
+              <a class="post__link" href="#contato">Quero conversar</a>
+            </article>
+            <article class="post reveal">
+              <p class="post__tag">Relacionamentos</p>
+              <h3 class="post__title">Comunicação: o que muda quando você escuta</h3>
+              <p class="post__excerpt">O básico bem feito que reduz conflitos e aumenta confiança.</p>
+              <a class="post__link" href="#contato">Agendar sessão</a>
+            </article>
+            <article class="post reveal">
+              <p class="post__tag">Autocuidado</p>
+              <h3 class="post__title">Rotina possível: 10 minutos que contam</h3>
+              <p class="post__excerpt">Pequenas ações repetidas criam estabilidade emocional com o tempo.</p>
+              <a class="post__link" href="#contato">Falar no WhatsApp</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="contato" aria-label="Contato">
+        <div class="container section__inner">
+          <div class="contact">
+            <div class="contact__copy reveal">
+              <h2 class="section__title">Contato</h2>
+              <p class="section__lead">
+                Me diga como posso ajudar. Respondo em horário comercial, com atenção e discrição.
+              </p>
+
+              <div class="contact__cards" aria-label="Canais de contato">
+                <div class="mini-card">
+                  <p class="mini-card__k">WhatsApp</p>
+                  <p class="mini-card__v">
+                    <a class="inline-link" href="https://wa.me/5571992416524" target="_blank" rel="noreferrer">
+                      +55 (71) 99241-6524
+                    </a>
+                  </p>
+                </div>
+                <div class="mini-card">
+                  <p class="mini-card__k">E-mail</p>
+                  <p class="mini-card__v">
+                    <a class="inline-link" href="mailto:contato@seudominio.com">contato@seudominio.com</a>
+                  </p>
+                </div>
+                <div class="mini-card">
+                  <p class="mini-card__k">Local</p>
+                  <p class="mini-card__v">Camaçari, BA</p>
+                </div>
+              </div>
+            </div>
+
+            <form class="form reveal" data-contact-form>
+              <div class="form__row">
+                <label class="field">
+                  <span class="field__label">Nome</span>
+                  <input class="field__input" name="nome" autocomplete="name" required />
+                </label>
+                <label class="field">
+                  <span class="field__label">Telefone</span>
+                  <input class="field__input" name="telefone" autocomplete="tel" inputmode="tel" />
+                </label>
+              </div>
+              <label class="field">
+                <span class="field__label">E-mail</span>
+                <input class="field__input" name="email" type="email" autocomplete="email" required />
+              </label>
+              <label class="field">
+                <span class="field__label">Mensagem</span>
+                <textarea class="field__input field__input--area" name="mensagem" rows="5" required></textarea>
+              </label>
+
+              <div class="form__actions">
+                <button class="btn btn--primary" type="submit">Enviar mensagem</button>
+                <p class="form__hint">
+                  Ao enviar, você concorda em ser contatado(a) para fins de agendamento. Não compartilhe informações
+                  sensíveis por aqui.
+                </p>
+              </div>
+              <p class="form__success" hidden data-form-success>Mensagem pronta. Vou abrir seu e-mail com os dados.</p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <p class="footer__text">© <span data-year></span> Flavia Maria. Todos os direitos reservados.</p>
+        <p class="footer__text">
+          <a class="inline-link" href="#inicio">Voltar ao topo</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
